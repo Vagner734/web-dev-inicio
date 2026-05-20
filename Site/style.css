@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(55, 62, 247);
+    font-family: Arial, sans-serif;
+}
+
+#profile {
+    height: 70px;
+    width: 70px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    background-image: url("Coffee.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 20px auto 10px auto;
+}
+
+#username {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.buttonlist {
+    background-color: white;
+    border-radius: 25px;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    width: 250px;
+    margin: 10px auto;
+}
+
+.network-icon{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 20px auto;
+}
+
+.instagram-user{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+
+
