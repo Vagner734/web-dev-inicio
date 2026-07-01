@@ -3,7 +3,7 @@ const nome = document.getElementById("username");
 nome.innerText = "Vagner na Web";
 
 // Dados simulando o banco de dados
-const string = '[{"frase": "acesse o meu curso Python", "link": "https://www.elevify.com/pt-br/cursos/tecnologia/tecnologia/curso-basico-de-python-5be12"}, {"frase": "acesse o meu curso HTML", "link": "https://www.elevify.com/pt-br/cursos/tecnologia/tecnologia/curso-de-html-f65ad"}, {"frase": "acesse o meu curso PHP", "link": "https://www.elevify.com/pt-br/cursos/tecnologia/tecnologia"}]';
+const string = '[{"frase": "acesse o meu curso Python", "link": "https://www.elevify.com/pt-br/cursos/tecnologia/tecnologia/curso-basico-de-python-5be12"}, {"frase": "acesse o meu curso HTML", "link": "https://www.elevify.com/pt-br/cursos/tecnologia/tecnologia/curso-de-html-f65ad"}, {"frase": "acesse o meu curso PHP", "link": "https://www.elevify.com/pt-br/cursos/tecnologia/tecnologia/curso-de-php-para-iniciantes-b25dd"}]';
 const json = JSON.parse(string);
 
 const container = document.getElementById("container_link");
